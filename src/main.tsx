@@ -5,7 +5,7 @@ import './index.css'
 import { HashRouter } from 'react-router-dom'
 import App from './App'
 import { ThemeProvider } from './providers/ThemeContext'
-import { ThemePanel } from "@radix-ui/themes"
+// import { ThemePanel } from "@radix-ui/themes"
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
