@@ -1,6 +1,6 @@
 import { Grid, Container, Text, Heading, Flex, Box } from "@radix-ui/themes";
 import { useTranslation } from "react-i18next";
-import { Atom, Boxes, Brain, BrainCircuit, Building2, ChartNoAxesCombined, Code, Drama, LucideGamepad2, MessageCircleCheck } from "lucide-react";
+import { Atom, Boxes, Brain, BrainCircuit, Building2, ChartNoAxesCombined, Code, Drama, LucideGamepad2, MessageCircleCheck, Users } from "lucide-react";
 import { useTheme } from "../../providers/ThemeContext";
 import { Crow } from "./projectCards/Crow";
 import { Origin } from "./projectCards/Origin";
@@ -21,6 +21,8 @@ import { Kitchen } from "./projectCards/Kitchen";
 import { BehaviouralForensics } from "./projectCards/BehaviouralForensics";
 import { CIR } from "./projectCards/CIR";
 import { Publishing } from "./projectCards/Publishing";
+import { PM } from "./projectCards/PM";
+import { QALead } from "./projectCards/QALead";
 
 
 export function Projects() {
@@ -129,6 +131,20 @@ export function Projects() {
             <Grid columns={{ initial: "1", md: "2" }} gap="3" width="auto">
                 <MAKO />
                 <Labyrinth />
+            </Grid>
+
+               <Box mb="4">
+                <Heading size="4" color={color}>
+                    <Flex align="center" justify="center" mb="-4">
+                        <Users />
+                        <Text ml="2">{t('caseStudy.leadershipTitle')}</Text>
+                    </Flex>
+                </Heading>
+                <Text>{t("caseStudy.leadershipDescription")}</Text>
+            </Box>
+            <Grid columns={{ initial: "1", md: "2" }} gap="3" width="auto">
+                <PM />
+                <QALead />
             </Grid>
 
             <Box mb="4">

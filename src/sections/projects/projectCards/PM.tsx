@@ -20,10 +20,18 @@ export function PM() {
     return (
         <ProjectCard
             tags={tags}
-            title={"caseStudy.pmCardTitle"}
-            description={"caseStudy.pmCardDescription"}
+            title={"caseStudy.pmTitle"}
+            description={"caseStudy.pmDescription"}
             skills={[
-                // "caseStudy.migration", "caseStudy.typeScript", "caseStudy.logicSeparation", "caseStudy.complexCode"
+                 "caseStudy.pmSkill_1", 
+                 "caseStudy.pmSkill_2",
+                 "caseStudy.pmSkill_3",
+                 "caseStudy.pmSkill_4",
+                 "caseStudy.pmSkill_5",
+                 "caseStudy.pmSkill_6",
+                 "caseStudy.pmSkill_7",
+                 "caseStudy.pmSkill_8",
+                // "caseStudy.typeScript", "caseStudy.logicSeparation", "caseStudy.complexCode"
             ]}
             techStack={[
                 "Redmine", "Scrum"

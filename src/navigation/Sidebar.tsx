@@ -1,5 +1,3 @@
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Home,  Hammer, DraftingCompass, BriefcaseBusiness } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Box, Flex, Heading } from "@radix-ui/themes";

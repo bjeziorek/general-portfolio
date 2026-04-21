@@ -10,8 +10,8 @@
     "howIWork": "Jak pracuję"
   },
   "universal": {
-    "casestudy":"Zewnętrzne studium przypadku",
-    "productPage":"Strona produktu",
+    "casestudy": "Zewnętrzne studium przypadku",
+    "productPage": "Strona produktu",
     "description": "Opis",
     "blog": "Blog",
     "github": "GitHub",
@@ -27,78 +27,55 @@
     "part": "Część"
   },
   "work": {
-  "h_work": "Jak pracuję",
-
-  "intro_1": "Najlepiej pracuję tam, gdzie ograniczenia są twarde, zachowania chaotyczne, a brief brzmi: „Nic nie działa. Zrób, co uważasz za słuszne — ale ma działać.”",
-
-  "intro_2": "Moje projekty opierają się na rozpoznawaniu wzorców, predykcyjnej kognitywistyce i myśleniu systemowym. To, co nazywam intuicją, jest w praktyce szybkim modelowaniem kognitywnym — rozpoznaję ukrytą strukturę problemu i generuję architekturę rozwiązania, zanim zacznie się formalna analiza. Dalej przechodzę przez iteracyjny cykl SPINE: osadzenie systemowe → modelowanie kognitywne → mapowanie tarć behawioralnych → architektura hipotez → integracja metod mieszanych → implementacja systemowa.",
-
-  "h_how_1": "Tryb działania",
-
-  "list_how_1_1": "R&D na pierwszym miejscu — prototypuję, testuję, psuję i iteruję szybko.",
-  "list_how_1_2": "Podejście frameworkowe — CIR, FEDRI i SPINE prowadzą mnie tam, gdzie intuicja nie wystarcza.",
-  "list_how_1_3": "Praca w ograniczeniach — traktuję budżet, legacy i politykę jako dane wejściowe do projektu, nie przeszkody.",
-
-  "h_how_2": "Jak myślę",
-
-  "list_how_2_1": "Systemowo — widzę projekty jako żywe systemy, nie statyczne funkcje.",
-  "list_how_2_2": "Kognitywnie — modeluję to, jak ludzie faktycznie się zachowują, a nie jak „powinni”.",
-  "list_how_2_3": "Emergentnie — projektuję pod odporność, nie pod perfekcyjną kontrolę.",
-  "list_how_2_4": "Predykcyjnie — przewiduję zachowania zanim zacznie się formalna analiza.",
-
-  "h_how_3": "Gdzie wnoszę największą wartość",
-
-  "list_how_3_1": "Wczesne R&D, prototypowanie i architektura koncepcji.",
-  "list_how_3_2": "Systemy behawioralne i kognitywne w środowiskach z ograniczeniami.",
-  "list_how_3_3": "Przekładanie chaotycznej rzeczywistości na stabilne frameworki i interwencje.",
-  "list_how_3_4": "Szybka formalizacja intuicyjnych wglądów w skalowalne architektury.",
-
-  "h_how_4": "Transparentność procesu",
-  "h_how_4_docs": "Przykłady dokumentów",
-  "h_how_4_docs_link": "Jak dokumentuję swoją pracę →",
-
-  "list_how_4_2": "Projekt chorwacki",
-  "list_how_4_2_link_1": "Surowy zrzut kognitywny (14h) →",
-  "list_how_4_2_link_2": "Architektura R&D →",
-  "list_how_4_2_link_3": "Studium strategii produktowej →",
-  "list_how_4_2_link_4": "Blueprint systemów kognitywnych →",
-
-  "imi_link": "Co się dzieje, gdy inżynier R&D odkrywa brakujący moduł w swojej architekturze i… generuje go z wnętrza niekompletnego systemu →",
-  "dishes_link": "Co się dzieje, gdy inżynier R&D unika zmywania naczyń, degraduje system kuchenny i kończy… kupując więcej naczyń →",
-
-  "list_how_4_3": "Rozwój frameworku IMI (narracja + fragmenty agentarium)",
-  "list_how_4_4": "Kognitywne R&D w kuchni (narracja + symulacje agentowe)",
-
-  "h_dont": "Czego nie robię",
-
-  "h2_dont_1": "Liniowej realizacji bez myślenia",
-  "dont_1": "Nie działam według sztywnych checklist, z góry ustalonych workflowów ani instrukcji typu „zbuduj dokładnie to, co powiedzieliśmy”. Jeśli projekt wymaga ślepego wykonania bez zrozumienia systemu, nie jestem odpowiednią osobą.",
-
-  "h2_dont_2": "Projektów, które unikają złożoności",
-  "dont_2": "Nie upraszczam problemów tylko po to, by wyglądały ładnie. Jeśli prawdziwy problem jest chaotyczny, emocjonalny, behawioralny lub systemowy — tam pracuję najlepiej. Jeśli oczekiwanie brzmi: „spraw, żeby wyglądało prosto, nawet jeśli nie jest”, odmawiam.",
-
-  "h2_dont_3": "Projektowania bez dostępu do realnych zachowań",
-  "dont_3": "Nie projektuję w próżni. Jeśli nie mogę obserwować zachowań, testować hipotez ani weryfikować założeń, praca nie będzie wartościowa — i jej nie podejmę.",
-
-  "h2_dont_4": "Projektów wymagających emocjonalnej neutralności",
-  "dont_4": "Nie odcinam się od emocjonalnej i kognitywnej rzeczywistości użytkowników. Jeśli zespół chce „czystych danych bez ludzkiego bałaganu”, nie będziemy dobrym dopasowaniem.",
-
-  "h2_dont_5": "Udawania, że ograniczenia nie istnieją",
-  "dont_5": "Nie projektuję fantazyjnych rozwiązań ignorujących czas, budżet, politykę, systemy legacy ani prawo. Jeśli zespół oczekuje „innowacji bez realiów”, w tym omijania zabezpieczeń prawnych, wymogów regulacyjnych lub wdrażania funkcji umożliwiających szkodliwe lub nielegalne działania użytkowników — wycofuję się. Projektuję systemy, które zapobiegają niebezpiecznym zachowaniom, a nie je umożliwiają.",
-
-  "h2_dont_6": "Kultur, które karzą za myślenie krytyczne",
-  "dont_6": "Nie pracuję w kulturach, gdzie kwestionowanie założeń jest traktowane jako zagrożenie, gdzie ignoruje się dowody, bo są niewygodne, albo gdzie dokładność liczy się mniej niż posłuszeństwo. Jeśli zespół oczekuje, że będę tłumić analizę, by dopasować się do narracji — wycofuję się.",
-
-  "h2_dont_7": "Pracy wymagającej maskowania lub umniejszania siebie",
-  "dont_7": "Nie tonuję swojej intensywności, ciekawości ani szybkości poznawczej, by dopasować się do środowisk, które boją się nieszablonowego myślenia. Jeśli zespół potrzebuje kogoś „mniej”, to nie jestem ja.",
-
-  "h2_dont_8": "Pracy wymagającej ignorowania predykcyjnej intuicji",
-  "dont_8": "Nie tłumię wczesnego rozpoznawania wzorców tylko po to, by podążać za powolnym, liniowym procesem. Jeśli zespół potrzebuje kogoś, kto „czeka na pozwolenie, żeby myśleć”, to nie jestem ta osoba.",
-
-  "h2_dont_9": "Pozorowanych deliverables UX",
-  "dont_9": "Nie tworzę person, map podróży ani błyszczących artefaktów powstających wyłącznie na potrzeby prezentacji. Jeśli deliverable nie zmienia zachowania, nie wspiera decyzji ani nie poprawia systemu — nie robię go."
-},
-
+    "h_work": "Jak pracuję",
+    "intro_1": "Najlepiej pracuję tam, gdzie ograniczenia są twarde, zachowania chaotyczne, a brief brzmi: „Nic nie działa. Zrób, co uważasz za słuszne — ale ma działać.”",
+    "intro_2": "Moje projekty opierają się na rozpoznawaniu wzorców, predykcyjnej kognitywistyce i myśleniu systemowym. To, co nazywam intuicją, jest w praktyce szybkim modelowaniem kognitywnym — rozpoznaję ukrytą strukturę problemu i generuję architekturę rozwiązania, zanim zacznie się formalna analiza. Dalej przechodzę przez iteracyjny cykl SPINE: osadzenie systemowe → modelowanie kognitywne → mapowanie tarć behawioralnych → architektura hipotez → integracja metod mieszanych → implementacja systemowa.",
+    "h_how_1": "Tryb działania",
+    "list_how_1_1": "R&D na pierwszym miejscu — prototypuję, testuję, psuję i iteruję szybko.",
+    "list_how_1_2": "Podejście frameworkowe — CIR, FEDRI i SPINE prowadzą mnie tam, gdzie intuicja nie wystarcza.",
+    "list_how_1_3": "Praca w ograniczeniach — traktuję budżet, legacy i politykę jako dane wejściowe do projektu, nie przeszkody.",
+    "h_how_2": "Jak myślę",
+    "list_how_2_1": "Systemowo — widzę projekty jako żywe systemy, nie statyczne funkcje.",
+    "list_how_2_2": "Kognitywnie — modeluję to, jak ludzie faktycznie się zachowują, a nie jak „powinni”.",
+    "list_how_2_3": "Emergentnie — projektuję pod odporność, nie pod perfekcyjną kontrolę.",
+    "list_how_2_4": "Predykcyjnie — przewiduję zachowania zanim zacznie się formalna analiza.",
+    "h_how_3": "Gdzie wnoszę największą wartość",
+    "list_how_3_1": "Wczesne R&D, prototypowanie i architektura koncepcji.",
+    "list_how_3_2": "Systemy behawioralne i kognitywne w środowiskach z ograniczeniami.",
+    "list_how_3_3": "Przekładanie chaotycznej rzeczywistości na stabilne frameworki i interwencje.",
+    "list_how_3_4": "Szybka formalizacja intuicyjnych wglądów w skalowalne architektury.",
+    "h_how_4": "Transparentność procesu",
+    "h_how_4_docs": "Przykłady dokumentów",
+    "h_how_4_docs_link": "Jak dokumentuję swoją pracę →",
+    "list_how_4_2": "Projekt chorwacki",
+    "list_how_4_2_link_1": "Surowy zrzut kognitywny (14h) →",
+    "list_how_4_2_link_2": "Architektura R&D →",
+    "list_how_4_2_link_3": "Studium strategii produktowej →",
+    "list_how_4_2_link_4": "Blueprint systemów kognitywnych →",
+    "imi_link": "Co się dzieje, gdy inżynier R&D odkrywa brakujący moduł w swojej architekturze i… generuje go z wnętrza niekompletnego systemu →",
+    "dishes_link": "Co się dzieje, gdy inżynier R&D unika zmywania naczyń, degraduje system kuchenny i kończy… kupując więcej naczyń →",
+    "list_how_4_3": "Rozwój frameworku IMI (narracja + fragmenty agentarium)",
+    "list_how_4_4": "Kognitywne R&D w kuchni (narracja + symulacje agentowe)",
+    "h_dont": "Czego nie robię",
+    "h2_dont_1": "Liniowej realizacji bez myślenia",
+    "dont_1": "Nie działam według sztywnych checklist, z góry ustalonych workflowów ani instrukcji typu „zbuduj dokładnie to, co powiedzieliśmy”. Jeśli projekt wymaga ślepego wykonania bez zrozumienia systemu, nie jestem odpowiednią osobą.",
+    "h2_dont_2": "Projektów, które unikają złożoności",
+    "dont_2": "Nie upraszczam problemów tylko po to, by wyglądały ładnie. Jeśli prawdziwy problem jest chaotyczny, emocjonalny, behawioralny lub systemowy — tam pracuję najlepiej. Jeśli oczekiwanie brzmi: „spraw, żeby wyglądało prosto, nawet jeśli nie jest”, odmawiam.",
+    "h2_dont_3": "Projektowania bez dostępu do realnych zachowań",
+    "dont_3": "Nie projektuję w próżni. Jeśli nie mogę obserwować zachowań, testować hipotez ani weryfikować założeń, praca nie będzie wartościowa — i jej nie podejmę.",
+    "h2_dont_4": "Projektów wymagających emocjonalnej neutralności",
+    "dont_4": "Nie odcinam się od emocjonalnej i kognitywnej rzeczywistości użytkowników. Jeśli zespół chce „czystych danych bez ludzkiego bałaganu”, nie będziemy dobrym dopasowaniem.",
+    "h2_dont_5": "Udawania, że ograniczenia nie istnieją",
+    "dont_5": "Nie projektuję fantazyjnych rozwiązań ignorujących czas, budżet, politykę, systemy legacy ani prawo. Jeśli zespół oczekuje „innowacji bez realiów”, w tym omijania zabezpieczeń prawnych, wymogów regulacyjnych lub wdrażania funkcji umożliwiających szkodliwe lub nielegalne działania użytkowników — wycofuję się. Projektuję systemy, które zapobiegają niebezpiecznym zachowaniom, a nie je umożliwiają.",
+    "h2_dont_6": "Kultur, które karzą za myślenie krytyczne",
+    "dont_6": "Nie pracuję w kulturach, gdzie kwestionowanie założeń jest traktowane jako zagrożenie, gdzie ignoruje się dowody, bo są niewygodne, albo gdzie dokładność liczy się mniej niż posłuszeństwo. Jeśli zespół oczekuje, że będę tłumić analizę, by dopasować się do narracji — wycofuję się.",
+    "h2_dont_7": "Pracy wymagającej maskowania lub umniejszania siebie",
+    "dont_7": "Nie tonuję swojej intensywności, ciekawości ani szybkości poznawczej, by dopasować się do środowisk, które boją się nieszablonowego myślenia. Jeśli zespół potrzebuje kogoś „mniej”, to nie jestem ja.",
+    "h2_dont_8": "Pracy wymagającej ignorowania predykcyjnej intuicji",
+    "dont_8": "Nie tłumię wczesnego rozpoznawania wzorców tylko po to, by podążać za powolnym, liniowym procesem. Jeśli zespół potrzebuje kogoś, kto „czeka na pozwolenie, żeby myśleć”, to nie jestem ta osoba.",
+    "h2_dont_9": "Pozorowanych deliverables UX",
+    "dont_9": "Nie tworzę person, map podróży ani błyszczących artefaktów powstających wyłącznie na potrzeby prezentacji. Jeśli deliverable nie zmienia zachowania, nie wspiera decyzji ani nie poprawia systemu — nie robię go."
+  },
   "frameworks": {
     "h_frameworks": "Frameworki kognitywne i systemowe",
     "into_description": "To podstawowe frameworki kognitywne i systemowe, których używam do strukturyzowania badań, projektowania i implementacji. Wszystkie zostały przetestowane w realnych środowiskach (z wyjątkiem IMI, które jest w fazie rozwoju).",
@@ -440,6 +417,28 @@
     "a4_8": "To jest idealny balans: komercyjnie robię stabilną inżynierię, a prywatnie mogę odpalać „mad scientist mode” bez ograniczeń. Jedno napędza drugie."
   },
   "caseStudy": {
+    "leadershipTitle": "Leadership",
+    "leadershipDescription": "Projekty, w których prowadziłam zespoły, strukturyzowałam workflowy, koordynowałam pracę międzydziedzinową i dbałam o dowożenie w środowiskach o wysokiej odpowiedzialności, niejasności lub presji operacyjnej. Te doświadczenia pokazują moją umiejętność prowadzenia zespołów, zarządzania złożonością, jasnej komunikacji między rolami oraz utrzymywania jakości i tempa pracy w wymagających projektach.",
+    "qaTitle": "QA Leadership — zgodność z Sony TRC i zarządzanie zespołem",
+    "qaDescription": "Jako QA Lead zarządzałam zespołem odpowiedzialnym za zgodność z Sony TRC oraz testy o najwyższym poziomie ryzyka. Brałam na siebie najbardziej złożone i odpowiedzialne przypadki testowe, jednocześnie koordynując, przeglądając i wspierając pracę pozostałych testerów. Zbudowałam operacyjny fundament funkcji QA: onboarding, bazę wiedzy, dokumentację dobrych praktyk, przepływy komunikacji i struktury raportowania. Byłam mostem między testerami, programistami i kierownictwem — zapewniając klarowność, realistyczne terminy i stabilne dowożenie.",
+    "qaSkill_1": "Zarządzanie i koordynacja zespołu QA w środowisku o wysokiej odpowiedzialności",
+    "qaSkill_2": "Branie odpowiedzialności za najbardziej złożone i ryzykowne przypadki testowe",
+    "qaSkill_3": "Projektowanie procesów onboardingu, baz wiedzy i dokumentacji dobrych praktyk",
+    "qaSkill_4": "Przegląd i weryfikacja pracy testerów, dbanie o spójność i jakość",
+    "qaSkill_5": "Komunikowanie problemów, opóźnień, ryzyk i obłożenia programistom oraz kierownictwu",
+    "qaSkill_6": "Utrzymywanie spójności działań między QA, inżynierią i leadershipem",
+    "qaSkill_7": "Zapewnienie zgodności z wymaganiami Sony TRC",
+    "qaSkill_8": "Strukturyzowanie workflowów i oczekiwań wobec testerów juniorskich",
+    "pmTitle": "Project Management — migracja MMO z web na mobile",
+    "pmDescription": "Project Manager w bardzo złożonej, niejednoznacznej i technicznie wymagającej inicjatywie: migracji wieloletniej webowej gry MMO na platformy mobilne. Koordynowałam zespół programistów o zróżnicowanym poziomie seniority, zarządzałam priorytetami, strukturyzowałam zadania w Redmine (w braku Jiry) i pełniłam rolę głównego punktu komunikacji między developerami, kierownictwem firmy i zagranicznym klientem. Przejmowałam estymacje, gdy programiści mieli trudność z oszacowaniem zakresu — rozbijałam zadania, doprecyzowywałam wymagania i tworzyłam realistyczne harmonogramy. Zarządzałam różnicami pokoleniowymi w zespole (seniorzy 50+ i juniorzy 20+), dbając o współpracę, klarowność i bezpieczeństwo psychologiczne.",
+    "pmSkill_1": "Prowadzenie zespołu developerskiego przez wielowarstwowy projekt migracyjny o wysokiej niejednoznaczności",
+    "pmSkill_2": "Strukturyzowanie zadań, priorytetów i workflowów w Redmine",
+    "pmSkill_3": "Pełnienie roli mostu komunikacyjnego między developerami, kierownictwem i interesariuszami zewnętrznymi",
+    "pmSkill_4": "Tworzenie realistycznych estymacji i ocen obciążenia na podstawie zrozumienia technicznego",
+    "pmSkill_5": "Zarządzanie dynamiką zespołu o zróżnicowanym seniority i rozwiązywanie tarć",
+    "pmSkill_6": "Przekładanie niejasnych lub zmieniających się wymagań na konkretne plany działania",
+    "pmSkill_7": "Utrzymywanie tempa pracy mimo niepewności i niepełnych specyfikacji",
+    "pmSkill_8": "Koordynacja długoterminowego projektu z wieloma interesariuszami bez formalnej odpowiedzialności budżetowej",
     "rodoCardTitle": "Architektura zgód RODO — analiza end‑to‑end i projekt systemu dla CRM/OSS/SEC w telekomie",
     "rodoCardDescription": "Projekt analityczno‑architektoniczny, który zaczął się od prostego zadania „zaprojektuj checkboxy zgód RODO” — a przerodził się w pełną analizę forensyczną tego, jak platforma CRM/OSS/SEC w telekomie musi przetwarzać, przechowywać i udostępniać dane osobowe w warunkach nakładających się reżimów prawnych. Praca ujawniła, że historyczne faktury (sprzed RODO) podlegają innym podstawom prawnym niż dane po‑RODO, co wymaga odrębnych zasad przetwarzania, logiki retencji i granic dostępu. Zmapowałam, jak warstwy CRM, BOK i backend muszą reagować na zmiany zgód, wymagania pseudonimizacji/anonimizacji, ograniczenia dostępu oparte na rolach oraz obowiązki logowania dostępu. Efektem był kompletny, przekrojowy projekt architektury przetwarzania danych opartej na zgodach, dostosowanej do środowiska telekomowego o dużej skali.",
     "rodoSkill_1": "Wydobywanie rzeczywistych wymagań z niejasnych lub niepełnych zgłoszeń od interesariuszy",
@@ -460,6 +459,7 @@
     "printSkill_5": "Modelowanie wieloetapowych procesów operacyjnych (routing e‑mail vs druk, synchronizacja statusów)",
     "printSkill_6": "Dokumentowanie zachowania systemu, edge‑case’ów i granic integracji",
     "printSkill_7": "Łączenie perspektyw biznesowych, prawnych i technicznych w spójny model",
+    "crmCardTitle":"CRM klasy telecom (Angular/Groovy, architektura wielokontenerowa)",
     "crmCardDescription": "Wieloletnia, wielozespołowa platforma CRM/OSS/SEC w telekomie, zbudowana na niestandardowym stosie Angular SSR generowanym w Groovy i uruchamiana w dwunastu kontenerach Docker. Pracowałam nad stabilizacją systemu, analizą zachowań legacy oraz poprawą UX i niezawodności operacyjnej w środowisku ukształtowanym przez lata nieudokumentowanej logiki, niespójnych wzorców i złożonych interakcji między kontenerami.",
     "crmSkill_1": "Stworzenie pierwszej spójnej architektury wiedzy (taksonomia, standardy nazewnictwa, dokumentacja oparta na uzasadnieniach)",
     "crmSkill_2": "Dostarczenie stabilizacji UI opartej na badaniach, forensyki systemów legacy i analizy wzorców zachowań w architekturze Angular/Groovy SSR obejmującej 12 kontenerów.",
