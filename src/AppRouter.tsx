@@ -9,6 +9,7 @@ import { CaseStudies } from "./sections/caseStudies/CaseStudies";
 import { Frameworks } from "./sections/frameworks/Frameworks";
 import { Skills } from "./sections/Skills";
 import { HowIWork } from "./sections/howIWork/HowIWork";
+import { AutShowcase } from "./showcases/aut/AutShowcase";
 
 function AppRouter() {
     return (
@@ -23,6 +24,9 @@ function AppRouter() {
                 <Route path="skills" element={<Skills />} />
                 <Route path="work" element={<HowIWork />} />
                 <Route path="faq" element={<FAQ />} />
+
+                {/* showcases */}
+                <Route path="aut" element={<AutShowcase />} />
             </Route>
         </Routes>
     )
