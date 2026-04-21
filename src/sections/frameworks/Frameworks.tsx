@@ -103,7 +103,7 @@ export function Frameworks() {
 
             <Card mt="4">
                 <Box m="4">
-                    <Heading size="6">{t("frameworks.h_ip")}</Heading>
+                    <Heading color={color} size="6">{t("frameworks.h_ip")}</Heading>
                     <Flex direction="column" gap="4">
                         <Text>{t("frameworks.h_ip_intro_1")}</Text>
                         <Text>{t("frameworks.h_ip_intro_2")}</Text>
