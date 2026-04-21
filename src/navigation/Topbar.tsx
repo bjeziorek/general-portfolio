@@ -9,7 +9,6 @@ export default function Topbar() {
 
   const { theme, toggleTheme, color } = useTheme()
   const { i18n } = useTranslation();
-  console.log(i18n.language.toUpperCase())
 
   const changeLanguage = (lng: 'pl' | 'en') => {
     i18n.changeLanguage(lng);

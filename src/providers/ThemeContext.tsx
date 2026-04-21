@@ -2,7 +2,6 @@ import { createContext, useState, type Dispatch, type SetStateAction } from "rea
 import { Theme } from "@radix-ui/themes"
 
 type ThemeMode = "light" | "dark"
-type Color = "gray" | "gold" | "bronze" | "brown" | "yellow" | "amber" | "orange" | "tomato" | "red" | "ruby" | "crimson" | "pink" | "plum" | "purple" | "violet" | "iris" | "indigo" | "blue" | "cyan" | "teal" | "jade" | "green" | "grass" | "lime" | "mint" | "sky"
 
 type ThemeContextValue = {
   theme: ThemeMode
@@ -29,6 +28,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 }
 
 import { useContext } from "react"
+import type { Color } from "../types/Color"
 
 // eslint-disable-next-line react-refresh/only-export-components
 export function useTheme() {

@@ -24,7 +24,7 @@ export function PATSubcomponentCut() {
             <figure>
                 <img
                     src="PAT-architecture.png"
-                    alt="Diagram architektury biblioteki probably‑a‑table"
+                    alt= {t("pat.components4")}
                 />
                 <figcaption>
                     {t("pat.components4")}

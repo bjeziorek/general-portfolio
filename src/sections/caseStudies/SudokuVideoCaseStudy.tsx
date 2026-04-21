@@ -5,7 +5,7 @@ import { SidebarNavItem } from "../../navigation/SidebarNavItem";
 import { useTranslation } from "react-i18next";
 import { useTheme } from "../../providers/ThemeContext";
 
-export function VideoCaseStudy() {
+export function SudokuVideoCaseStudy() {
     const { t } = useTranslation()
     const { color } = useTheme()
 

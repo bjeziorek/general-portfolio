@@ -4,6 +4,7 @@ import { Card } from "@radix-ui/themes";
 export function Skills(){
     return (
         <Card>
+            Skills
 I. Hard Skills (Technical)
 1. Frontend Engineering
 Frontend architecture & system design

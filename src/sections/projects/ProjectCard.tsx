@@ -3,6 +3,8 @@ import { ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SidebarNavItem, type ButtonVariant } from "../../navigation/SidebarNavItem";
 import { useTheme } from "../../providers/ThemeContext";
+import type { TagName } from "../../types/TagNames";
+import { Tag } from "../../shared/Tag";
 
 interface Link {
     isExternal: boolean,
@@ -12,28 +14,30 @@ interface Link {
     isIconBehind?: boolean
 }
 
-interface CaseStudyProps {
+interface ProjectCardProps {
     title: string,
     description: string,
     skills: string[],
     links: Link[],
-    techStack: string[]
+    techStack: string[],
+    tags?: TagName[]
 }
 
-export function CaseStudy(props: CaseStudyProps) {
+export function ProjectCard(props: ProjectCardProps) {
     const { t } = useTranslation();
-    const { title, description, skills, links, techStack } = props;
+    const { title, description, skills, links, techStack, tags = [] } = props;
     const { color } = useTheme()
-    
+
     return (
         <Card>
             <Flex justify="between" direction="column" height="100%">
+
                 <Box mx="4">
                     <Heading size="4" color={color}>{t(title)}</Heading>
                     <Flex gap="5" direction="column" mb="4" >
                         <Text>{t(description)}</Text>
                         <Box>
-                            <Text>{t("caseStudy.skillsDemonstrated")}:</Text>
+                            <Text>{t("caseStudy.skillsDemonstrated")}</Text>
                             <ul>
                                 {skills.map(skill => (
                                     <li>
@@ -42,6 +46,8 @@ export function CaseStudy(props: CaseStudyProps) {
                                 ))}
                             </ul>
                         </Box>
+                        {techStack.length
+                        ?(
                         <Box>
                             <Text>{t('universal.techStack')}</Text>
                             <ul>
@@ -52,9 +58,16 @@ export function CaseStudy(props: CaseStudyProps) {
                                 ))}
                             </ul>
                         </Box>
-
+                        ):null}
                     </Flex>
                 </Box>
+
+                <Box mx="4">
+                    <Flex gap="2" wrap="wrap">
+                        {tags.map(tag => (<Tag tagName={tag} />))}
+                    </Flex>
+                </Box>
+
                 <Box m="4">
                     <Flex gap="3" wrap="wrap">
                         {links.map(link => {

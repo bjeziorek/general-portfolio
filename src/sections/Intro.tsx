@@ -16,8 +16,22 @@ export function Intro() {
                 <Box m='4'>
                     <Flex direction="column" gap="4">
                          <Heading size="4"  color={color} my="0">{t("intro.me")}</Heading>
-                        <Text>{t("intro.about1")}</Text>
-                        <Text>{t("intro.about2")}</Text>
+                        <Text>{t("intro.newIntro_1")}</Text>
+                        <Text>{t("intro.newIntro_2")}</Text>
+                        <Text>{t("intro.newIntro_3")}</Text>
+                        <ul>
+                        <li><Text>{t("intro.list_newIntro_3_1")}</Text></li>
+                        {/* <li><Text>{t("intro.list_newIntro_3_2")}</Text></li> */}
+                        <li><Text>{t("intro.list_newIntro_3_3")}</Text></li>
+                        <li><Text>{t("intro.list_newIntro_3_4")}</Text></li>
+                        <li><Text>{t("intro.list_newIntro_3_5")}</Text></li>
+                        {/* <li><Text>{t("intro.list_newIntro_3_6")}</Text></li> */}
+                        <li><Text>{t("intro.list_newIntro_3_7")}</Text></li>
+                        </ul>
+                        <Text>{t("intro.newIntro_4")}</Text>
+                        <Text>{t("intro.newIntro_5")}</Text>
+                        {/* <Text>{t("intro.about1")}</Text> */}
+                        {/* <Text>{t("intro.about2")}</Text> */}
                         {/* <Text>{t("intro.about3")}</Text> */}
                         {/* <Text>{t("intro.about4")}</Text> */}
                     </Flex>
