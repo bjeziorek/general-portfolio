@@ -7,6 +7,7 @@ type ThemeContextValue = {
   theme: ThemeMode
   toggleTheme: () => void
   color: Color
+  colorInactive: Color
   setColor: Dispatch<SetStateAction<Color>>
 }
 
@@ -14,14 +15,15 @@ const ThemeContext = createContext<ThemeContextValue | null>(null)
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<ThemeMode>("dark")
-  const [color, setColor] = useState<Color>("indigo")
+  const [color, setColor] = useState<Color>("iris")
+  const [colorInactive] = useState<Color>("gold")
 
   const toggleTheme = () => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"))
   }
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, color, setColor }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, color, colorInactive, setColor }}>
       <Theme appearance={theme}>{children}</Theme>
     </ThemeContext.Provider>
   )

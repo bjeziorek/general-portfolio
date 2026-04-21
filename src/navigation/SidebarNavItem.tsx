@@ -20,14 +20,14 @@ export const SidebarNavItem: React.FC<SidebarNavItemProps> = ({
   isIconBehind=false,
   buttonVariant="ghost"
 }) => {
-  const {color} = useTheme();
+  const {color, colorInactive} = useTheme();
   return (
     <NavLink to={to} className="w-full">
       {({ isActive }) => (
         <Button
           asChild
           variant={buttonVariant}
-          color={isActive ? color : "gray"}
+          color={isActive ? color : colorInactive}
           className="w-full justify-start"
         >
           <Flex align="center" gap="3">

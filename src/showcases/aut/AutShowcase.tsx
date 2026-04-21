@@ -24,11 +24,6 @@ export function AutShowcase() {
             />
 
             <Showcase
-                project={<Print />}
-                why={"autShowcase.print"}
-            />
-
-            <Showcase
                 project={<QALead />}
                 why={"autShowcase.qa"}
             />

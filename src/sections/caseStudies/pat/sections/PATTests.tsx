@@ -182,7 +182,7 @@ describe('integration of toggle and sort', () => {
       </ul>
       <Heading size="4" color={color}>{t('pat.h2_tests')}</Heading>
       <Text>{t('pat.tests13')}</Text>
-      <Text>{t('pat.tests14')}</Text>
+      {/* <Text>{t('pat.tests14')}</Text> */}
       <Text>{t('pat.tests15')}</Text>
       <CodeTest
         code={`import { Table } from "@radix-ui/themes";
