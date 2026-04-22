@@ -15,10 +15,10 @@ export function HowIWork() {
             <Heading size="6" color={color}>{t("work.h_work")}</Heading>
             <Box mb="6">
                 <Flex direction="column" gap="4">
-            <Text>{t("work.intro_1")}</Text>
-            <Text>{t("work.intro_2")}</Text>
-          </Flex> 
-           </Box>
+                    <Text>{t("work.intro_1")}</Text>
+                    <Text>{t("work.intro_2")}</Text>
+                </Flex>
+            </Box>
             <Grid columns={{ initial: "1", md: "2" }} gap="3" width="auto">
                 <WorkCard
                     title={t("work.h_how_1")}
@@ -53,7 +53,7 @@ export function HowIWork() {
                             <Heading size="4" color={color}>{t("work.h_how_4")}</Heading>
                             <Flex direction="column" gap="4">
                                 <SidebarNavItem
-                                    to="/howIDocument"
+                                    to="https://bjeziorek.github.io/bjeziorek-portfolio-rnd/docs/docs.html"
                                     label={t("work.h_how_4_docs_link")}
                                     buttonVariant="outline" icon={null} />
                                 <Text>{t("work.h_how_4_docs")}:</Text>
@@ -65,24 +65,24 @@ export function HowIWork() {
                                         <ul>
                                             <li>
                                                 <SidebarNavItem
-                                                    to="/howIDocument"
+                                                    to="https://bjeziorek.github.io/bjeziorek-portfolio-rnd/docs/dump.html"
                                                     label={t("work.list_how_4_2_link_1")}
                                                     buttonVariant="outline" icon={null} />
                                             </li>
                                             <li>
                                                 <SidebarNavItem
-                                                    to="/howIDocument"
+                                                    to="https://bjeziorek.github.io/bjeziorek-portfolio-rnd/docs/refined.html"
                                                     label={t("work.list_how_4_2_link_2")}
                                                     buttonVariant="outline" icon={null} />
                                             </li>
                                             <li>
                                                 <SidebarNavItem
-                                                    to="/howIDocument"
+                                                    to="https://bjeziorek.github.io/bjeziorek-portfolio-rnd/docs/strategy.html"
                                                     label={t("work.list_how_4_2_link_3")}
                                                     buttonVariant="outline" icon={null} />
                                                 <li>
                                                     <SidebarNavItem
-                                                        to="/howIDocument"
+                                                        to="https://bjeziorek.github.io/bjeziorek-portfolio-rnd/docs/blueprint.html"
                                                         label={t("work.list_how_4_2_link_4")}
                                                         buttonVariant="outline" icon={null} />
                                                 </li>
@@ -95,7 +95,7 @@ export function HowIWork() {
                                     <ul>
                                         <li>
                                             <SidebarNavItem
-                                                to="/howIDocument"
+                                                to="https://randomindexed.blogspot.com/2026/03/r-what-happens-when-r-engineer-realises.html"
                                                 label={t("work.imi_link")}
                                                 buttonVariant="ghost" icon={null} />
                                         </li>
@@ -103,10 +103,10 @@ export function HowIWork() {
                                 </li>
                                 <li>
                                     <Text>{t("work.list_how_4_4")}:</Text>
-                                     <ul>
+                                    <ul>
                                         <li>
                                             <SidebarNavItem
-                                                to="/howIDocument"
+                                                to="https://randomindexed.blogspot.com/2026/03/r-what-happens-when-r-engineer-avoids.html"
                                                 label={t("work.dishes_link")}
                                                 buttonVariant="ghost" icon={null} />
                                         </li>
