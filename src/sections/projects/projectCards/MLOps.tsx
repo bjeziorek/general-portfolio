@@ -35,7 +35,7 @@ export function MLOps() {
                 {
                     isExternal: true,
                     name: "universal.youtube",
-                    linkURL: "https://youtu.be/Z6KS_nhfIBY",
+                    linkURL: "https://youtu.be/0McRImEHxg4",
                     buttonVariant: "outline",
                     isIconBehind: true
                 }
