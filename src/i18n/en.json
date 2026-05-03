@@ -10,6 +10,8 @@
     "howIWork": "How I Work"
   },
   "universal": {
+    "turnDarkMode":"Switch to dark mode",
+    "turnLightMode":"Switch to light mode",
     "casestudy": "External Case Study",
     "productPage": "Product Page",
     "description": "Description",

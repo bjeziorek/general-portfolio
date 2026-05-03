@@ -25,6 +25,8 @@ export function PATSubcomponentCut() {
                 <img
                     src="PAT-architecture.png"
                     alt= {t("pat.components4")}
+                    width="580px"
+                    height="570px"
                 />
                 <figcaption>
                     {t("pat.components4")}

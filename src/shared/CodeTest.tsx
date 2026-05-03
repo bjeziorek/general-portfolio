@@ -1,16 +1,20 @@
 import { Box, Card, Text, Tabs } from "@radix-ui/themes";
 import { CodeBlock } from "./CodeBlock";
 import { useTranslation } from "react-i18next";
+import React from "react";
 
 interface CodeTestProps {
     code: string,
     test: string,
     title1: string,
-    title2: string
+    title2: string,
+    runInWorker?:boolean
 }
 
+const MemoCodeBlock = React.memo(CodeBlock)
+
 export function CodeTest(props: CodeTestProps) {
-    const { code, test, title1, title2 } = props;
+    const { code, test, title1, title2, runInWorker=true } = props;
     const { t } = useTranslation();
 
     return (
@@ -24,12 +28,12 @@ export function CodeTest(props: CodeTestProps) {
                 <Box pt="3">
                     <Tabs.Content value="code">
                         <Text>{title1}</Text>
-                        <CodeBlock code={code} />
+                        <MemoCodeBlock code={code} runInWorker={runInWorker}/>
                     </Tabs.Content>
 
                     <Tabs.Content value="test">
                         <Text>{title2}</Text>
-                        <CodeBlock code={test} />
+                        <MemoCodeBlock code={test} runInWorker={runInWorker} />
                     </Tabs.Content>
 
                 </Box>

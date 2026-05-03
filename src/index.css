@@ -1,4 +1,3 @@
-/* @import "tailwindcss"; */
 @import "@radix-ui/themes/styles.css";
 .sr-only {
   visibility: hidden;

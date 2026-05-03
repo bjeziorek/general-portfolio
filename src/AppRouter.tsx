@@ -10,13 +10,23 @@ import { Frameworks } from "./sections/frameworks/Frameworks";
 import { Skills } from "./sections/Skills";
 import { HowIWork } from "./sections/howIWork/HowIWork";
 import { AutShowcase } from "./showcases/aut/AutShowcase";
+import { CachePage } from "./shared/CachePage";
 
 function AppRouter() {
     return (
         <Routes>
             <Route path="/" element={<Dashboard />}>
                 <Route index element={<Intro />} />
-                <Route path="pat" element={<PAT />} />
+
+                <Route 
+                    path="pat" 
+                    element={
+                        <CachePage id="pat">
+                            <PAT />
+                         </CachePage>
+                    } 
+                />
+
                 <Route path="video" element={<SudokuVideoCaseStudy />} />
                 <Route path="caseStudies" element={<CaseStudies />} />
                 <Route path="projects" element={<Projects />} />

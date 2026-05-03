@@ -10,6 +10,8 @@
     "howIWork": "Jak pracuję"
   },
   "universal": {
+    "turnDarkMode":"Przełącz na tryb ciemny",
+    "turnLightMode":"Przełącz na tryb jasny",
     "casestudy": "Zewnętrzne studium przypadku",
     "productPage": "Strona produktu",
     "description": "Opis",

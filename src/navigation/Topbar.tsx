@@ -8,7 +8,7 @@ import { Moon, Sun } from "lucide-react";
 export default function Topbar() {
 
   const { theme, toggleTheme, color } = useTheme()
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const changeLanguage = (lng: 'pl' | 'en') => {
     i18n.changeLanguage(lng);
@@ -22,6 +22,7 @@ export default function Topbar() {
 
         <Box>
           <Button
+          aria-label={t(theme==="light"?'universal.turnDarkMode':'universal.turnDarkMode')}
             color={color}
             size='4'
             variant="ghost"

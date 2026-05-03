@@ -1,16 +1,25 @@
 import { Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
 import { BeforeAfter } from "../../../shared/BeforeAfter";
-import { PATUntanglingHooks } from "./sections/PATUntanglingHooks";
-import { PATSubcomponentCut } from "./sections/PATSubcomponentCut";
-import { PATTyping } from "./sections/PATTyping";
-import { PATTests } from "./sections/PATTests";
-import { PATSkills } from "./sections/PATSkills";
-import { PATLib } from "./sections/PATLib";
+// import { PATUntanglingHooks } from "./sections/PATUntanglingHooks";
+// import { PATSubcomponentCut } from "./sections/PATSubcomponentCut";
+// import { PATTyping } from "./sections/PATTyping";
+// import { PATTests } from "./sections/PATTests";
+// import { PATSkills } from "./sections/PATSkills";
+// import { PATLib } from "./sections/PATLib";
 import { useTranslation } from "react-i18next";
 import { after1, before1 } from "./code";
 import { useTheme } from "../../../providers/ThemeContext";
+import React from "react";
 
 
+const LazyPATUntanglingHooks = React.lazy(() => import('./sections/PATUntanglingHooks').then(m => ({ default: m.PATUntanglingHooks })))
+const LazyPATSubcomponentCut = React.lazy(() => import('./sections/PATSubcomponentCut').then(m => ({ default: m.PATSubcomponentCut })))
+const LazyPATTyping = React.lazy(() => import('./sections/PATTyping').then(m => ({ default: m.PATTyping })))
+const LazyPATTests = React.lazy(() => import('./sections/PATTests').then(m => ({ default: m.PATTests })))
+const LazyPATLib = React.lazy(() => import('./sections/PATLib').then(m => ({ default: m.PATLib })))
+const LazyPATSkills = React.lazy(() => import('./sections/PATSkills').then(m => ({ default: m.PATSkills })))
+
+             
 export function PAT() {
     const { t } = useTranslation()
     const { color } = useTheme()
@@ -67,14 +76,35 @@ export function PAT() {
                         after={after1}
                         commentAfter={t('pat.recaftor_after')}
                         commentBefore={t('pat.recaftor_before')}
+                        runInWorker={true}
                     />
                 </Flex>
-                <PATUntanglingHooks />
-                <PATSubcomponentCut />
-                <PATTyping />
-                <PATTests />
-                <PATLib />
-                <PATSkills />
+
+                <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATUntanglingHooks />
+                </React.Suspense>
+
+  <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATSubcomponentCut />
+                </React.Suspense>
+
+                  <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATTyping />
+                </React.Suspense>
+
+                  <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATTests />
+                </React.Suspense>
+
+                  <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATLib />
+                </React.Suspense>
+
+                  <React.Suspense fallback={<div>Loading...</div>}>
+                    <LazyPATSkills />
+                </React.Suspense>
+
+               
             </Box>
         </Card>
     );
