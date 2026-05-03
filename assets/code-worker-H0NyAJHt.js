@@ -1,0 +1,2 @@
+(function(){self.onmessage=t=>{let n=t.data;console.log(`in worker`);let r=n.split(`
+`).map((t,n)=>({i:n,html:e(t)}));postMessage(r)};function e(e){let t=e.replace(/</g,`&lt;`).replace(/>/g,`&gt;`);return t=t.replace(/(".*?"|'.*?')/g,`<span style="color: var(--green-9)">$1</span>`),t=t.replace(/(&lt;\/?[A-Za-z0-9]+.*?&gt;)/g,`<span style="color: var(--blue-9)">$1</span>`),t=t.replace(/(\/\/.*$)/g,`<span style="color: var(--gray-9)">$1</span>`),t}})();
