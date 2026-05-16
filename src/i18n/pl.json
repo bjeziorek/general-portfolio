@@ -10,8 +10,8 @@
     "howIWork": "Jak pracuję"
   },
   "universal": {
-    "turnDarkMode":"Przełącz na tryb ciemny",
-    "turnLightMode":"Przełącz na tryb jasny",
+    "turnDarkMode": "Przełącz na tryb ciemny",
+    "turnLightMode": "Przełącz na tryb jasny",
     "casestudy": "Zewnętrzne studium przypadku",
     "productPage": "Strona produktu",
     "description": "Opis",
@@ -612,6 +612,10 @@
     "pat": ""
   },
   "intro": {
+    "new2_1": "Jestem Software Engineerem. Obecnie koncentruję się na React-cie, z rosnącą specjalizacją w inżynierii AI/LLM i silnym zapleczem w system thinking.",
+    "new2_2": "Tworzę rozwiązania end‑to‑end — od systemów UI i funkcji full‑stack po rozproszone sandboxy AI i eksperymentalne narzędzia R&D.",
+    "new2_3": "Moja praca inżynierska wynika ze szczególnego połączenia doświadczeń w architekturze, systemach enterprise, modelowaniu poznawczym, R&D, analizie biznesowej i leadershipie.",
+    "new2_4": "Dzięki temu mam szeroką perspektywę: potrafię wejść głęboko w kod, spojrzeć na zachowanie systemu z góry i płynnie przechodzić między eksploracją a dostarczaniem rozwiązań, nie tracąc przy tym klarowności.",
     "newIntro_1": "Projektuję, analizuję i stabilizuję złożone systemy — od korporacyjnych platform CRM i architektur regulacyjnych po eksperymentalne narzędzia R&D, modele kognitywne i analizy zachowania modeli AI.",
     "newIntro_2": "Pracuję na styku inżynierii, architektury i R&D. Specjalizuję się w przekuwaniu złożonych, niejasnych koncepcji w klarowne, skalowalne systemy — od wczesnej eksploracji aż po ich realne wdrożenie, łącząc dogłębną analizę z praktycznym tworzeniem i implementacją rozwiązań.",
     "newIntro_3": "Swobodnie poruszam się między różnymi obszarami:",

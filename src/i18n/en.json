@@ -624,6 +624,10 @@
     "pat": ""
   },
   "intro": {
+    "new2_1":"I’m a Software Engineer focused on React, with a growing specialisation in AI/LLM engineering and a strong background in system thinking.",
+    "new2_2":"I build things end‑to‑end — from UI systems and full‑stack features to distributed AI sandboxes and experimental R&D tools.",
+    "new2_3":"My engineering work is shaped by an unusual combination of experiences across architecture, enterprise systems, cognitive modelling, R&D, business analysis and leadership.",
+    "new2_4":"This gives me a broad perspective: I can zoom into code, zoom out to system behaviour, and move between exploration and delivery without losing clarity.",
     "newIntro_1": "I design, analyse and stabilise complex systems — from enterprise‑grade CRM platforms and regulatory‑driven architectures to experimental R&D tools, cognitive frameworks and AI behaviour analysis.",
     "newIntro_2": "My work sits at the intersection of engineering, architecture and R&D. I specialise in shaping complex ideas into clear, scalable systems — from early exploration to implementing solutions, combining deep analysis with practical, hands‑on delivery.",
     "newIntro_3": "I move comfortably between domains:",

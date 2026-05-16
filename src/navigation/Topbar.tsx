@@ -18,7 +18,7 @@ export default function Topbar() {
 
     <header >
       <Flex justify='between' align="center" width='100%'>
-        <Heading ml='4' size="6" color={color}>Barbara Jeziorek - Solution Architect - Portfolio</Heading>
+        <Heading ml='4' size="6" color={color}>Barbara Jeziorek - Software Engineer - Portfolio</Heading>
 
         <Box>
           <Button
